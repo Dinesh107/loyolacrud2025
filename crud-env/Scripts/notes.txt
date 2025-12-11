@@ -1,0 +1,22 @@
+CRUD
+     CREATE
+     READ
+     UPDATE
+     DELETE
+
+
+Content
+       1 - Create Virtual Environment
+        py -m venv myenv
+       .\myenv\Scripts\activate
+        pip -m pip install django
+        pyhton -m pip install --upgrade pip
+       2 - Create Project
+        django-admin startproject DjangoCrud .
+       3 - Create app
+       python .\manage.py startapp employee
+       4 - working with models
+        python .\manage.py migrate
+       5 - working with forms 
+       
+python .\manage.py runserver - to run django apllication
